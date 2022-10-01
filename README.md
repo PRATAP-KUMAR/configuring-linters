@@ -1,7 +1,7 @@
 # CONFIGURING LINTERS
 configure linters with a one line command
 
-https://medium.com/p/76d2a3862d41/
+Further Details: https://medium.com/p/76d2a3862d41/
 
 ## Example for configuring react&redux linters with a one line command.
 
