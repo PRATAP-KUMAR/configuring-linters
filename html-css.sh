@@ -1,3 +1,5 @@
+# THIS FILE IS NOT YET READY - PLEASE DONT USE THIS FILE
+
 # check if user has by any chance having 'react-redux' directory? then exit with out executing anything.
 if [ -d ./html-css ]
 then echo "
