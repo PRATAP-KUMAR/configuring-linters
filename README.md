@@ -6,6 +6,10 @@ Further Details: https://medium.com/p/76d2a3862d41/
 
 ## important note about .gitignore and node_modules/
 > Please see this link for how to [Set-up linters in your local env](https://github.com/microverseinc/linters-config/tree/master/html-css#set-up-linters-in-your-local-env)
+````
+# .gitignore
+node_modules/
+````
 
 
 ## Example for configuring react&redux linters with a one line command.
