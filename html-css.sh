@@ -24,7 +24,7 @@ mv ./html-css/.github .
 npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
 
 # move the required files to the root directory of the project
-mv ./react-redux/{.eslintrc.json,.babelrc} .
+mv ./html-css/{.eslintrc.json,.babelrc} .
 
 echo "ESLint is configured..., Configuring Stylelint..."
 
@@ -32,7 +32,7 @@ echo "ESLint is configured..., Configuring Stylelint..."
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 # move the file to the root directory of the project
-mv ./react-redux/.stylelintrc.json .
+mv ./html-css/.stylelintrc.json .
 
 echo "
 Stylelint is Configured...
@@ -48,4 +48,4 @@ npx stylelint "**/*.{css,scss}"
 '
 
 # finally remove the downloaded directory which is not needed anymore
-rm -r ./react-redux
+rm -r ./html-css
